@@ -1,0 +1,184 @@
+<!doctype html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+
+        <title>thescottishbarber - Prices</title>
+
+        
+        <link rel="stylesheet" href="stylesprices.css">
+        <meta name="viewport" content="initial-scale = 1.0,maximum-scale = 1.0" />
+    </head>
+    
+   
+    
+     
+      <header>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
+
+
+
+
+
+<nav class="navbar navbar-default navbar-fixed-top  my-nav">
+  <div class="container">
+    
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand logo"><img src="images\tsblogon.png" width="200" height="50"></a>
+    </div>
+
+    
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="About Us.html">About us</a></li>
+        <li><a href="Gallery.html">Gallery</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Used Products<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="For Hairstyling.html">For Hairstyling</a></li>
+            <li><a href="For Beards.html">For Beards</a></li>
+            <li><a href="Skincare.html">Skincare</a></li>
+          </ul>
+        </li>
+        <li><a class="active" href="#prices">Prices</a></li>
+        <li><a href="Subscription plans.html">Subscription plans</a></li>
+        <li><a href="Make an appointment.html"><b>Make an appointment</b></a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<script>$(window).scroll(function(){
+    var wscroll = $(this).scrollTop();
+    if(wscroll > 100){
+     $(".navbar").addClass("shrink-nav");
+      $(".logo").addClass("shrink-logo");
+    }
+    else{
+      $(".navbar").removeClass("shrink-nav");
+      $(".logo").removeClass("shrink-logo");
+    }
+  });</script>
+
+</header>
+
+<body>
+  
+
+  <a id="button">
+  
+    <img src="images\uparrow.png" width="30" height="30">
+  </a>
+
+<script>var btn = $('#button');
+
+  $(window).scroll(function() {
+    if ($(window).scrollTop() > 300) {
+      btn.addClass('show');
+    } else {
+      btn.removeClass('show');
+    }
+  });
+  
+  btn.on('click', function(e) {
+    e.preventDefault();
+    $('html, body').animate({scrollTop:0}, '300');
+  });</script>
+ 
+<!-- Image Scroll -->
+
+<br>
+  <div class="producttext">
+  <div class="title">
+  <h1>Prices</h1>
+<br>
+<p>Prices may vary depending on the length of the hair.<p>
+<br>
+</div>
+
+<table id="customers">
+ 
+    <tr>
+    
+      <td>Classic cut</td>
+      <td>£25</td>
+    </tr>
+    <tr>
+     
+      <td>Modern cut</td>
+      <td>£35</td>
+    </tr>
+    <tr>
+      
+      <td>Beard outline (razor)</td>
+      <td>£10</td>
+    </tr>
+    <tr>
+      
+      <td>Haircut + Contour + Grooming the beard</td>
+      <td>£55</td>
+    </tr>
+    <tr>
+   
+      <td>Special Event Styling</td>
+      <td>£70</td>
+    </tr>
+    <tr>
+      
+      <td>Dyed beard</td>
+      <td>£30</td>
+    </tr>
+    <tr>
+     
+      <td>Black point removal mask treatment</td>
+      <td>£20</td>
+    </tr>
+    <tr>
+      
+      <td>Classic Shave</td>
+      <td>£15</td>
+    </tr>
+    <tr>
+      
+      <td>Traditional shaving</td>
+      <td>£20</td>
+    </tr>
+    <tr>
+     </table>
+
+
+
+</body>
+<footer></div>
+
+<div class="footer">
+  <p>United Kingdom
+   <br> Farnborough, Hampshire
+  </p>
+<p><b>Questions? Call 0031-223-342</b></p>
+<a href="#"><img src="images\fblogo1.png"></a>
+&nbsp;
+<a href="#"><img src="images\instagramlogo2.png"></a>
+&nbsp;
+<a href="#"><img src="images\yoububelogo3.png"></a>
+</footer>
+</div>
+</html>

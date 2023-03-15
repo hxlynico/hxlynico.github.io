@@ -1,0 +1,177 @@
+<!doctype html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+
+        <title>thescottishbarber</title>
+
+        
+        <link rel="stylesheet" href="styles.css">
+        <meta name="viewport" content="initial-scale = 1.0,maximum-scale = 1.0" />
+    </head>
+    
+   
+    
+     
+      <header>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
+
+
+
+
+
+<nav class="navbar navbar-default navbar-fixed-top  my-nav">
+  <div class="container">
+    
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand logo"><img src="images\tsblogon.png" width="200" height="50"></a>
+    </div>
+
+    
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a class="active" href="#home">Home</a></li>
+        <li><a href="About Us.html">About us</a></li>
+        <li><a href="Gallery.html">Gallery</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Used Products<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="For Hairstyling.html">For Hairstyling</a></li>
+            <li><a href="For Beards.html">For Beards</a></li>
+            <li><a href="Skincare.html">Skincare</a></li>
+          </ul>
+        </li>
+        <li><a href="Prices.html">Prices</a></li>
+        <li><a href="Subscription plans.html">Subscription plans</a></li>
+        <li><a href="Make an appointment.html"><b>Make an appointment</b></a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<script>$(window).scroll(function(){
+    var wscroll = $(this).scrollTop();
+    if(wscroll > 100){
+     $(".navbar").addClass("shrink-nav");
+      $(".logo").addClass("shrink-logo");
+    }
+    else{
+      $(".navbar").removeClass("shrink-nav");
+      $(".logo").removeClass("shrink-logo");
+    }
+  });</script>
+
+</header>
+
+<body>
+  
+  
+  <a id="button">
+  
+    <img src="images\uparrow.png" width="30" height="30">
+  </a>
+
+<script>var btn = $('#button');
+
+  $(window).scroll(function() {
+    if ($(window).scrollTop() > 300) {
+      btn.addClass('show');
+    } else {
+      btn.removeClass('show');
+    }
+  });
+  
+  btn.on('click', function(e) {
+    e.preventDefault();
+    $('html, body').animate({scrollTop:0}, '300');
+  });</script>
+ 
+<!-- Image Scroll -->
+<div class="wrapper">
+    
+    <div class="box">
+        <img src="images\scissors-min2.png">
+        
+    </div>
+
+    </div>
+ <div class="barberhome"> <h1>Premium Quality Services
+    <br> The best barbershop in your town! 
+    <br>
+    <br>
+    <button type="button" onclick="window.location.href='Make an appointment.html';">Make an appointment!</button>
+ </h1>   </div>
+<div class="grid-container">
+  
+  <div class="grid-item">
+    <h1>Robert Watson &nbsp; ★★★★★</h1>
+    <p>"Super easy to book online. I didn’t have to wait at all when I got to the barbershop. The hairdresser was friendly, efficient, and skilled — I got a great haircut! Lower priced than anything else in my city. Highly recommend Barbershop!"</p>
+  </div>
+  <div class="grid-item">
+    <h1>Jim Stanley &nbsp; ★★★★
+    </h1>
+    <p>"I’ve never been in the same barbershop until I came to this place. They are consistent and very talented in what they do. Highly recommended."</p>
+  </div>
+  <div class="grid-item">
+    <h1>Josh Williams &nbsp; ★★★★★</h1>
+    <p>"Barber was friendly and professional. He asked me what kind of hairstyle I want/used to have and he gave me his input on what he thinks would look good with my head shape. I made the final decision after hearing his opinion and I am satisfied with the outcome. It’s different than what I’m used to, but in a good way!"</p>
+  </div>  
+ 
+</div>
+
+<div class="imgproduct">
+
+  <div class="producttext">
+ <img src="images\tsblogon.png">
+
+    <h2>Using only high-quality products.</h2>
+    <p>We have a varied range of quality products for any type of hair. Our customers will not be disappointed. </p>
+    <p>You can browse our used products below.</p>
+    <br>
+    <button type="button" onclick="window.location.href='For Hairstyling.html';">Hairstyling</button>
+    
+    <button type="button" onclick="window.location.href='For Beards.html';">For Beards</button>
+    
+    <button type="button" onclick="window.location.href='Skincare.html';">Skincare</button>
+    <br>
+    <br>
+  
+</div>
+
+
+
+</body>
+<footer></div>
+
+<div class="footer">
+  <p>United Kingdom
+   <br> Farnborough, Hampshire
+  </p>
+<p><b>Questions? Call 0031-223-342</b></p>
+<a href="#"><img src="images\fblogo1.png"></a>
+&nbsp;
+<a href="#"><img src="images\instagramlogo2.png"></a>
+&nbsp;
+<a href="#"><img src="images\yoububelogo3.png"></a>
+
+</footer>
+
+</div>
+</html>

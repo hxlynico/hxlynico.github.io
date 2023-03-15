@@ -1,0 +1,222 @@
+<!doctype html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+
+        <title>thescottishbarber - Subscription plans</title>
+
+        
+        <link rel="stylesheet" href="stylessubscriptionplans.css">
+        <meta name="viewport" content="initial-scale = 1.0,maximum-scale = 1.0" />
+    </head>
+    
+   
+    
+     
+      <header>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
+
+
+
+
+
+<nav class="navbar navbar-default navbar-fixed-top  my-nav">
+  <div class="container">
+    
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand logo"><img src="images\tsblogon.png" width="200" height="50"></a>
+    </div>
+
+    
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="About Us.html">About us</a></li>
+        <li><a href="Gallery.html">Gallery</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Used Products<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="For Hairstyling.html">For Hairstyling</a></li>
+            <li><a href="For Beards.html">For Beards</a></li>
+            <li><a href="Skincare.html">Skincare</a></li>
+          </ul>
+        </li>
+        <li><a href="Prices.html">Prices</a></li>
+        <li><a class="active" href="#subplans">Subscription plans</a></li>
+        <li><a href="Make an appointment.html"><b>Make an appointment</b></a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<script>$(window).scroll(function(){
+    var wscroll = $(this).scrollTop();
+    if(wscroll > 100){
+     $(".navbar").addClass("shrink-nav");
+      $(".logo").addClass("shrink-logo");
+    }
+    else{
+      $(".navbar").removeClass("shrink-nav");
+      $(".logo").removeClass("shrink-logo");
+    }
+  });</script>
+
+</header>
+
+<body>
+  
+
+  <a id="button">
+  
+    <img src="images\uparrow.png" width="30" height="30">
+  </a>
+
+<script>var btn = $('#button');
+
+  $(window).scroll(function() {
+    if ($(window).scrollTop() > 300) {
+      btn.addClass('show');
+    } else {
+      btn.removeClass('show');
+    }
+  });
+  
+  btn.on('click', function(e) {
+    e.preventDefault();
+    $('html, body').animate({scrollTop:0}, '300');
+  });</script>
+ 
+<!-- Image Scroll -->
+
+<br>
+  <div class="producttext">
+  <div class="title">
+  <h1>Subscription plans</h1>
+<br>
+<p>Choose a plan according to your needs.<p>
+<br>
+
+</div>
+
+  <div class="pricing-table">
+    <div class="ptable-item">
+      <div class="ptable-single">
+        <div class="ptable-header">
+          <div class="ptable-title">
+            <h2>Silver</h2>
+          </div>
+          <div class="ptable-price">
+            <h2><small>$</small>50<span>/ M</span></h2>
+          </div>
+        </div>
+        <div class="ptable-body">
+          <div class="ptable-description">
+            <ul>
+              <li>Modern cut or Classic cut</li>
+              <li>Classic Shave</li>
+            
+            </ul>
+          </div>
+        </div>
+        <div class="ptable-footer">
+          <div class="ptable-action">
+            <a href="Make an appointment.html">Make an appointment</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+    <div class="ptable-item featured-item">
+      <div class="ptable-single">
+        <div class="ptable-header">
+          <div class="ptable-status">
+            <span>Hot</span>
+          </div>
+          <div class="ptable-title">
+            <h2>Gold</h2>
+          </div>
+          <div class="ptable-price">
+            <h2><small>£</small>65<span>/ M</span></h2>
+          </div>
+        </div>
+        <div class="ptable-body">
+          <div class="ptable-description">
+            <ul>
+              <li>Classic cut or Modern cut</li>
+              <li>Classic Shave or Traditional Shaving</li>
+              <li>Black point removal mask treatment</li>
+            </ul>
+          </div>
+        </div>
+        <div class="ptable-footer">
+          <div class="ptable-action">
+            <a href="Make an appointment.html">Make an appointment</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+    <div class="ptable-item">
+      <div class="ptable-single">
+        <div class="ptable-header">
+          <div class="ptable-title">
+            <h2>Platinum</h2>
+          </div>
+          <div class="ptable-price">
+            <h2><small>£</small>80<span>/ M</span></h2>
+          </div>
+        </div>
+        <div class="ptable-body">
+          <div class="ptable-description">
+            <ul>
+                <li>Classic cut or Modern cut</li>
+                <li>Classic Shave or Traditional Shaving</li>
+                <li>Black point removal mask treatment</li>
+                <li>Beard Grooming</li>
+            </ul>
+          </div>
+        </div>
+        <div class="ptable-footer">
+          <div class="ptable-action">
+            <a href="Make an appointment.html">Make an appointment</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+<div class="producttext2"><p>Any additional requests are made in the salon and may affect the cost of the subscription plan.</p></div>
+  
+</body>
+<footer></div>
+
+<div class="footer">
+  <p>United Kingdom
+   <br> Farnborough, Hampshire
+  </p>
+<p><b>Questions? Call 0031-223-342</b></p>
+<a href="#"><img src="images\fblogo1.png"></a>
+&nbsp;
+<a href="#"><img src="images\instagramlogo2.png"></a>
+&nbsp;
+<a href="#"><img src="images\yoububelogo3.png"></a>
+
+</footer>
+</div>
+</html>

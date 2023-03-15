@@ -1,0 +1,300 @@
+
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,500);
+.navbar-brand{
+  padding-top:0px !important;
+  padding-bottom:0px !important;
+}
+.navbar{
+  font-size:16px;
+  font-family: 'Serif', sans-serif;
+  font-weight:500;
+    padding-top: 10px;
+	padding-bottom: 10px;
+	transition:all ease .3s;
+}
+.navbar-default .navbar-nav>li>a{
+   color:#B2AC88 !important;
+}
+
+.navbar-default .navbar-nav>li>a.active{
+  color:#8f8a71 !important;
+}
+.dropdown-menu > li > a {
+   color:#8d8769!important;
+}
+.navbar-default .navbar-nav>li>a:hover{
+   color:#8f8a71 !important;
+}
+.shrink-nav {
+	padding-top: 2px !important; 
+	padding-bottom: 0px !important; 
+}
+.logo img{
+  margin-top:5px; 
+  width:200px !important;
+  transition:width ease-in-out .3s;
+}
+.shrink-logo img {
+  transition:width ease-in-out .3s;
+	width:180px !important;
+}
+@media(max-width:900px){
+  .logo img{
+  width:200px !important;
+}
+  .shrink-logo img {
+    ;
+}
+}
+  /* Home Page Text */
+.barberhome h1 {
+  font-family: serif;
+    text-align: left;
+    bottom: 45rem;
+    margin-left: 10rem;
+    position: absolute;
+    color:#8f8a71
+}
+
+
+
+@media(max-width:900px) {
+    .barberhome h1 { 
+      bottom: 50px;
+      margin:auto;
+      position: absolute;
+      text-align: center;
+      font-size: 30px;
+      
+    }
+}
+    
+        
+
+  /* Image scroll */
+
+
+
+    .imgproduct {
+      grid-template-columns: auto auto auto;
+      background-color: #2196F3;
+      column-gap: 50px;
+      background-size: cover;
+    
+ 
+
+    }
+    .producttext {
+      background-color: #ffffff;
+      padding: 100px;
+      font-size: 30px;
+      text-align: left;
+      font-family: serif;
+      color: black;
+      border-style: 1px solid;
+      border-bottom: 2px solid;
+      border-color: #a4a089;
+    }
+
+    .producttext h2 {
+      font-size: 70px;
+    }
+
+    .producttext img {
+      width: -webkit-fill-available
+
+    }
+
+    .producttext button {
+      padding-left: 20px;
+      margin: 10px;
+      color: white---------;
+      background-color: #d5cda1;
+      padding-right: 20px;
+
+    }
+
+    .producttext button:hover {
+      background-color:#a09277
+    }
+    @media(max-width:900px){
+      
+      .producttext {
+        background-color: white;
+    padding: 50px;
+    font-size: 20px;
+    text-align: center;
+    font-family: serif;
+    border-style: 1px solid;
+    
+  
+}
+.producttext img {
+width: -webkit-fill-available
+
+     
+}
+
+.producttext h2 {
+  font-size: 40px;
+}
+    }
+
+.footer {
+  text-align: center;
+  color: #b1aa85;
+  padding: 20px;
+  background-color: white;
+}
+.footer img {
+  width: 30px;
+}
+
+
+#button {
+  display: inline-block;
+  background-color: #121212;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  border-radius: 4px;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  transition: background-color .3s, 
+    opacity .5s, visibility .5s;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 1000;
+}
+#button::after {
+  font-family: FontAwesome;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 2em;
+  line-height: 50px;
+  color: #fff;
+}
+#button:hover {
+  cursor: pointer;
+  background-color: #333;
+}
+#button:active {
+  background-color: #555;
+}
+#button.show {
+  opacity: 1;
+  visibility: visible;
+}
+
+.title h1 {
+  font-size: 80px;
+  text-align: center;
+  background-color: #d5cda1;
+  padding: 20px;
+  color: white;
+}
+
+@media(max-width:900px) {
+  .title h1 {
+    font-size: 20px;
+    text-align: center;
+    background-color: #d5cda1;
+    padding: 20px;
+    color: white;
+    margin-top: 40px;
+  }
+}
+.formbold-mb-5 {
+    margin-bottom: 20px;
+  }
+  .formbold-pt-3 {
+    padding-top: 12px;
+  }
+  .formbold-main-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 48px;
+  }
+
+  .formbold-form-wrapper {
+    margin: 0 auto;
+    max-width: 550px;
+    width: 100%;
+    background: white;
+  }
+  .formbold-form-label {
+    display: block;
+    font-weight: 500;
+    font-size: 16px;
+    color: #07074d;
+    margin-bottom: 12px;
+  }
+  .formbold-form-label-2 {
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+
+  .formbold-form-input {
+    width: 100%;
+    padding: 12px 24px;
+    border-radius: 6px;
+    border: 1px solid #e0e0e0;
+    background: white;
+    font-weight: 500;
+    font-size: 16px;
+    color: #6b7280;
+    outline: none;
+    resize: none;
+  }
+  .formbold-form-input:focus {
+    border-color: #d5cda1;
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.05);
+  }
+
+  .formbold-btn {
+    text-align: center;
+    font-size: 16px;
+    border-radius: 6px;
+    padding: 14px 32px;
+    border: none;
+    font-weight: 600;
+    background-color: #d5cda1;
+    color: white;
+    width: 100%;
+    cursor: pointer;
+  }
+  .formbold-btn:hover {
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.05);
+  }
+
+  .formbold--mx-3 {
+    margin-left: -12px;
+    margin-right: -12px;
+  }
+  .formbold-px-3 {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+  .flex {
+    display: flex;
+  }
+  .flex-wrap {
+    flex-wrap: wrap;
+  }
+  .w-full {
+    width: 100%;
+  }
+  @media (min-width: 540px) {
+    .sm\:w-half {
+      width: 50%;
+    }
+  }
+
+  .imagemap img {
+    border-style: solid;
+    border-color: black;
+  }
